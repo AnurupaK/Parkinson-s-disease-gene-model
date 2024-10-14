@@ -3,6 +3,8 @@
 
 ## Overview 📊
 This project analyzes gene expression data related to Parkinson's Disease (PD). The aim is to identify significant genes associated with PD, understand their roles, and explore Gene Ontology (GO) terms to gain insights into biological processes impacted by PD.
+![image](https://github.com/user-attachments/assets/0b288ae7-49ce-49c8-bacc-4d384e767dbf)
+
 
 ## Dataset 📑
 - **Source**: The dataset is sourced from the study ["Involvement of endocytosis and alternative splicing in the formation of the pathological process in Parkinson's Disease" published in *Biomed Res Int 2014* (PMID: 24804238)](https://pubmed.ncbi.nlm.nih.gov/24804238/). Dataset Download: [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54536)
