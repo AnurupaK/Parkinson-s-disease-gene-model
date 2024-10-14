@@ -3,7 +3,8 @@
 
 ## Overview 📊
 This project analyzes gene expression data related to Parkinson's Disease (PD). The aim is to identify significant genes associated with PD, understand their roles, and explore Gene Ontology (GO) terms to gain insights into biological processes impacted by PD.
-![image](https://github.com/user-attachments/assets/0b288ae7-49ce-49c8-bacc-4d384e767dbf)
+![image](https://github.com/user-attachments/assets/c482ecb0-c225-42bf-8e2d-1c4ca5021f35)
+
 
 
 ## Dataset 📑
