@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+header{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 10%;
+    background-color: rgb(255, 140, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+main{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 21px;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 224);
+    
+}
+
+
+.big_heading{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.small_heading{
+   font-size: 1.3rem;
+   font-weight: bold;
+   color: rgb(165, 29, 199);
+}
+
+.top{
+    width: 30%;
+    height: 100%;
+    border: 1px solid rgb(217, 214, 214);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 13px;
+    box-shadow: 1px 1px 5px 3px rgb(236, 234, 234);
+    background-color: rgb(238, 235, 235);
+}
+
+.sub_section{
+  width: 98%;
+  height: 250px;
+  border: 1px solid rgb(7, 29, 153);
+  padding: 13px;
+  box-sizing: border-box;
+  text-align: justify;
+  overflow: scroll;
+  border-radius:4px;
+  background-color: white;
+
+}
+
+.code{
+    width: 99%;
+    height: 70%;
+    border: 1px solid rgb(154, 152, 152);
+    overflow: scroll;
+    border-radius: 4px;
+    margin: 21px 0px;
+    background-color: rgb(218, 214, 214);
+}
+
+.bottom{
+    width: 65%;
+    height: 105%;
+    border: 1px solid rgb(217, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 3px rgb(236, 234, 234);
+    background-color: rgb(238, 235, 235);
+}
+
+.result{
+    width: 80%;
+    height: 90%;
+    border: 1px solid rgb(4, 30, 121);
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 11px;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+.image{
+    width: 100%;
+    height: 84%;
+    margin-top: 11px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 5px 3px rgb(228, 228, 228);
+    border-radius: 9px;
+    overflow: scroll;
+    border: 1px solid green;
+}
+
+.conclusion{
+    width: 100%;
+    height: 130px;
+    border: 1px solid rgb(189, 17, 237);
+    margin-top: 11px;
+    box-shadow: 1px 1px 5px 3px rgb(228, 228, 228);
+    border-radius: 9px;
+    overflow: scroll;
+    padding: 11px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.compare{
+   padding: 7px;
+   box-sizing: border-box;
+   border: 1px solid salmon;
+   background-color: pink;
+}
+
+.img1{
+    background-image: url(images/boxplot.png);
+}
+.img2{
+    background-image: url(images/means.png);
+}
+.img3{
+    background-image: url(images/volcano.png);
+}
+.img4{
+    background-image: url(images/MA.png);
+}
+.img5{
+    background-image: url(images/GO.png);
+}
+.img6{
+    background-image: url(images/network.png);
+    height: 95%;
+}
+.img7{
+    background-image: url(images/network2.png);
+    height: 95%;
+}
+.subset_network{
+    transform: translate(13px,15px);
+    font-weight: bold;
+    color: rgb(30, 99, 5);
+}
+footer{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 5%;
+    background-color: rgb(0, 113, 128);
+}
+
+.sub_section::-webkit-scrollbar,.code::-webkit-scrollbar,.conclusion::-webkit-scrollbar,.image::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,11 @@
+pandas 
+openpyxl
+ipykernel
+matplotlib
+seaborn
+scikit-learn
+scipy
+statsmodels
+gprofiler-official
+gseapy
+networkx
