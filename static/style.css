@@ -1,13 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
-    
+    font-family: "Poppins", sans-serif;  
 }
 
 header{
     width: 100%;
-    /* border: 1px solid black; */
     height: 10%;
     background-color: rgb(255, 140, 0);
     display: flex;
@@ -19,7 +17,6 @@ header{
 
 main{
     width: 100%;
-    /* border: 1px solid black; */
     height: 85%;
     display: flex;
     justify-content: space-around;
